@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  font-family: 'Rubik', sans-serif;
 }
 
 body {
@@ -15,7 +16,7 @@ body {
   padding: 10px;
 	height: 40px;
 	width: 100%;
-  font-size: 25px;
+  font-size: 20px;
 	background-color: lightgray;
   border-bottom: 1px solid gray;
 }
@@ -29,6 +30,10 @@ body {
 	position: absolute;
   right: 10px;
   top: 10px;
+}
+
+.nav-links a {
+  padding-right: 10px;
 }
 
 .nav-bar a:link {
@@ -50,15 +55,18 @@ label {
 }
 
 .search-container input {
-  height: 25px;
+  display: inline-block;
+  height: 30px;
   width: 50%;
 }
-
-.search-button {
+.white {
   background-color: white;
-  border-color: white;
+  border-color: white; 
   border: 1px solid lightgray;
   border-radius: 3px;
+}
+.search-button {
+  vertical-align: middle;
 }
 
 .search-button img {
@@ -66,13 +74,65 @@ label {
   width: 25px;
 }
 
+.search-controls {
+  display: inline-block;
+  font-size: 0px;
+  margin-bottom: 30px;
+  border: 1px solid lightgray;
+  border-radius: 3px;
 
+  }
 
+.search-controls a {
+  display: inline-block;
+  font-size: 16px;
+  padding: 8px 15px;
+  text-decoration: none;
+}
 
+.search-controls a:link {
+  color: black;
+}
 
+.search-controls a:hover {
+text-decoration: underline;
+}
 
+.search-controls span{
+  font-size: 16px;
+  padding: 8px 25px;
+  border-left: 1px solid lightgray;
+  border-right: 1px solid lightgray;
+}
 
+.search-results ul {
+  padding: 0px;
+}
 
+.search-results li {
+  padding-bottom: 15px;
+  list-style: none;
+  }
+
+.search-results-date {
+  padding-right: 5px;
+  color: gray;
+}
+
+.search-results a {
+  text-decoration: none;
+  font-weight: bold;
+  font-color: blue;
+}
+
+.search-results a:hover {
+  text-decoration: underline;
+}
+
+.search-results-location {
+  padding-left: 5px;
+  color: gray;
+}
 
 
 

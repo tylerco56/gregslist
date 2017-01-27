@@ -3,6 +3,7 @@
 <head>
 	<title>Greg's List | Find Junk</title>
 	<link rel="stylesheet" type="text/css" href="main.css">
+	<link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
 </head>
 <body>
 	<header class="nav-bar">
@@ -17,11 +18,35 @@
 	<section class="search-container">
 		<form>
 			<label for="search">Search Jobs</label>
-			<input type="text" id="search" placeholder="Developer, designer, internship..." />
-			<button type="submit" class="search-button">
+			<input type="text" class="white" id="search" placeholder="Developer, designer, internship..." />
+			<button type="submit" class="white search-button">
 				<img src="magnifying-glass.png" alt="search button">
 			</button>
 		</form>
 	</section>
+	<nav class="search-controls">
+		<a href="#">< prev</a></li>
+		<span>1 to 100 of 179</span>
+		<a href="#">next ></a></li>
+	</nav>
+	<main class="search-results">
+		<ul>
+			<li>
+				<span class="search-results-date">June 22</span>
+				<a href="#">Technical Project Manager</a>
+				<span class="search-results-location">Midtown East</span>
+			</li>
+			<li>
+				<span class="search-results-date">June 21</span>
+				<a href="#">Frontend Developer</a>
+				<span class="search-results-location">SoHo</span>
+			</li>
+			<li>
+				<span class="search-results-date">June 20</span>
+				<a href="#">Senior Python Developer</a>
+				<span class="search-results-location">Flatiron</span>
+			</li>
+		</ul>		
+	</main>
 </body>
 </html>
