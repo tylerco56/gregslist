@@ -1,3 +1,81 @@
-html {
-	/*comment*/
+* {
+  box-sizing: border-box;
 }
+
+body {
+  margin: 0;
+  padding: 80px
+}
+
+.nav-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 10px;
+	height: 40px;
+	width: 100%;
+  font-size: 25px;
+	background-color: lightgray;
+  border-bottom: 1px solid gray;
+}
+
+.nav-logo {
+  display: inline-block;
+  
+}
+
+.nav-links {
+	position: absolute;
+  right: 10px;
+  top: 10px;
+}
+
+.nav-bar a:link {
+	color: purple;
+	text-decoration: none;
+}
+
+.nav-bar a:hover {
+  text-decoration: underline;
+}
+
+.search-container {
+  margin-bottom: 30px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+.search-container input {
+  height: 25px;
+  width: 50%;
+}
+
+.search-button {
+  background-color: white;
+  border-color: white;
+  border: 1px solid lightgray;
+  border-radius: 3px;
+}
+
+.search-button img {
+  height: 25px;
+  width: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
